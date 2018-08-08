@@ -142,6 +142,14 @@ io.on('connection', function(socket) {
         image: '/images/ecs.png',
         status: 'none',
         onlineCount: 0
+      },
+      {
+        id: 'ndj',
+        name: 'NDJ Chat',
+        preview: 'NDJ chat',
+        image: '/images/ndj.png',
+        status: 'none',
+        onlineCount: 0
       }
     ]);
   });
